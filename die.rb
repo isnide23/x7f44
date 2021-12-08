@@ -1,8 +1,6 @@
 class Die
 
-  attr_reader :number_of_sides
-  attr_accessor :value
-  attr_reader :prng
+  attr_reader :number_of_sides, :prng, :value
 
   def initialize(number_of_sides)
     @number_of_sides = number_of_sides
