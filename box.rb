@@ -5,10 +5,14 @@ class Box
   def initialize(number_of_tiles)
     @number_of_tiles = number_of_tiles
     @tiles = []
+    create_tiles
+    @shut_tiles = []
+  end
+
+  def create_tiles
     @number_of_tiles.times do |i|
       @tiles << i + 1
     end
-    @shut_tiles = []
   end
 
   def shut?

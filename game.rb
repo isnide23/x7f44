@@ -41,5 +41,5 @@ class Game
   def results
     box.shut? ? WIN_MESSAGE : "Game over, you did not shut da box."
   end
-
+  
 end
